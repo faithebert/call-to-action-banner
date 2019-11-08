@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h2 {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
@@ -30,10 +34,12 @@ p {
 
 .content {
   position: absolute;
-  display: flex;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
   max-width: 45em;
+  margin: auto;
 }
 
 .btn {
