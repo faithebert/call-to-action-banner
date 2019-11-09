@@ -24,6 +24,7 @@ h2 {
 
 p {
   margin: 15px 0;
+  min-width: 390px;
 }
 
 .banner {
@@ -44,6 +45,8 @@ p {
 
 .img img {
   max-width: 230px;
+  min-width: 190px;
+  width: 100%;
 }
 
 .text {
