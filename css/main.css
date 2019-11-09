@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.4;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -33,6 +33,7 @@ p {
 }
 
 .img-flex {
+  display: flex;
   width: 100%;
 }
 
@@ -68,6 +69,6 @@ p {
   margin: 0;
 }
 
-a:hover {
+.btn:hover {
   background-color: #000;
 }
